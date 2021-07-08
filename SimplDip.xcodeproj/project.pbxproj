@@ -13,6 +13,12 @@
 		C995FF192697695C009A0258 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C995FF182697695C009A0258 /* Preview Assets.xcassets */; };
 		C995FF242697695C009A0258 /* SimplDipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C995FF232697695C009A0258 /* SimplDipTests.swift */; };
 		C995FF2F2697695C009A0258 /* SimplDipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C995FF2E2697695C009A0258 /* SimplDipUITests.swift */; };
+		C9A7BE39269769E5007DAD92 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A7BE34269769E5007DAD92 /* Model.swift */; };
+		C9A7BE3A269769E5007DAD92 /* DipSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A7BE35269769E5007DAD92 /* DipSwitch.swift */; };
+		C9A7BE3B269769E5007DAD92 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A7BE36269769E5007DAD92 /* MyButton.swift */; };
+		C9A7BE3C269769E5007DAD92 /* NumberInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A7BE37269769E5007DAD92 /* NumberInput.swift */; };
+		C9A7BE3D269769E5007DAD92 /* DestinationPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A7BE38269769E5007DAD92 /* DestinationPageView.swift */; };
+		C9A7BE3F26976A18007DAD92 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A7BE3E26976A18007DAD92 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		C995FF2A2697695C009A0258 /* SimplDipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplDipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C995FF2E2697695C009A0258 /* SimplDipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplDipUITests.swift; sourceTree = "<group>"; };
 		C995FF302697695C009A0258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A7BE34269769E5007DAD92 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C9A7BE35269769E5007DAD92 /* DipSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DipSwitch.swift; sourceTree = "<group>"; };
+		C9A7BE36269769E5007DAD92 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		C9A7BE37269769E5007DAD92 /* NumberInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberInput.swift; sourceTree = "<group>"; };
+		C9A7BE38269769E5007DAD92 /* DestinationPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationPageView.swift; sourceTree = "<group>"; };
+		C9A7BE3E26976A18007DAD92 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,12 @@
 			children = (
 				C995FF1126976959009A0258 /* SimplDipApp.swift */,
 				C995FF1326976959009A0258 /* ContentView.swift */,
+				C9A7BE38269769E5007DAD92 /* DestinationPageView.swift */,
+				C9A7BE35269769E5007DAD92 /* DipSwitch.swift */,
+				C9A7BE34269769E5007DAD92 /* Model.swift */,
+				C9A7BE36269769E5007DAD92 /* MyButton.swift */,
+				C9A7BE37269769E5007DAD92 /* NumberInput.swift */,
+				C9A7BE3E26976A18007DAD92 /* ViewModel.swift */,
 				C995FF152697695C009A0258 /* Assets.xcassets */,
 				C995FF1A2697695C009A0258 /* Info.plist */,
 				C995FF172697695C009A0258 /* Preview Content */,
@@ -259,7 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A7BE39269769E5007DAD92 /* Model.swift in Sources */,
+				C9A7BE3C269769E5007DAD92 /* NumberInput.swift in Sources */,
+				C9A7BE3A269769E5007DAD92 /* DipSwitch.swift in Sources */,
+				C9A7BE3D269769E5007DAD92 /* DestinationPageView.swift in Sources */,
+				C9A7BE3B269769E5007DAD92 /* MyButton.swift in Sources */,
 				C995FF1426976959009A0258 /* ContentView.swift in Sources */,
+				C9A7BE3F26976A18007DAD92 /* ViewModel.swift in Sources */,
 				C995FF1226976959009A0258 /* SimplDipApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,15 +446,16 @@
 				DEVELOPMENT_TEAM = R9X9YEBTDA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SimplDip/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mrstoffel.SimplDip;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrstoffel.SimpleDip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,15 +469,16 @@
 				DEVELOPMENT_TEAM = R9X9YEBTDA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SimplDip/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mrstoffel.SimplDip;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrstoffel.SimpleDip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

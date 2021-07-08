@@ -1,17 +1,20 @@
 //
-//  SimplDipApp.swift
-//  SimplDip
+//  SimpleDipApp.swift
+//  SimpleDip
 //
-//  Created by Matt Stoffel on 7/8/21.
+//  Created by Matt Stoffel on 6/8/21.
 //
+
 
 import SwiftUI
 
 @main
-struct SimplDipApp: App {
+struct SimpleDipApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let x = ViewModel()
+            ContentView(viewModel: x)
         }
     }
+    
 }
