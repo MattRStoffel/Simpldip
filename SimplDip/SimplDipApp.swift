@@ -13,7 +13,8 @@ struct SimpleDipApp: App {
     var body: some Scene {
         WindowGroup {
             let x = ViewModel()
-            ContentView(viewModel: x)
+            let rvm = ResistorViewModel()
+            ContentView(viewModel: x, rvm: rvm)
         }
     }
     

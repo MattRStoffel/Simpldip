@@ -28,7 +28,7 @@ struct DestinationPageView: View {
                 .onDisappear(perform: {
                     viewModel.setNumberOfDipSwitches(sliderValue)
                 })
-        
+            Spacer()
         }
     }
 }
@@ -36,7 +36,7 @@ struct DestinationPageView: View {
 struct DestinationPageView_Previews: PreviewProvider {
     static var previews: some View {
         let x = ViewModel()
-        ContentView(viewModel: x)
+        DestinationPageView(viewModel: x, sliderValue: 8, increment: "1")
     }
 }
 
