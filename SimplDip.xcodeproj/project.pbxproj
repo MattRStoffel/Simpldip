@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C931AA63276D312400E08D40 /* ResistorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C931AA62276D312400E08D40 /* ResistorViewModel.swift */; };
+		C931AA65276D33A900E08D40 /* ResistorSelectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C931AA64276D33A900E08D40 /* ResistorSelectors.swift */; };
+		C995FF1226976959009A0258 /* SimplDipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C995FF1126976959009A0258 /* SimplDipApp.swift */; };
+		C995FF1426976959009A0258 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C995FF1326976959009A0258 /* ContentView.swift */; };
+		C995FF162697695C009A0258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C995FF152697695C009A0258 /* Assets.xcassets */; };
+		C995FF192697695C009A0258 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C995FF182697695C009A0258 /* Preview Assets.xcassets */; };
+		C995FF242697695C009A0258 /* SimplDipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C995FF232697695C009A0258 /* SimplDipTests.swift */; };
+		C995FF2F2697695C009A0258 /* SimplDipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C995FF2E2697695C009A0258 /* SimplDipUITests.swift */; };
+		C9A7BE39269769E5007DAD92 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A7BE34269769E5007DAD92 /* Model.swift */; };
+		C9A7BE3A269769E5007DAD92 /* DipSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A7BE35269769E5007DAD92 /* DipSwitch.swift */; };
+		C9A7BE3B269769E5007DAD92 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A7BE36269769E5007DAD92 /* MyButton.swift */; };
+		C9A7BE3C269769E5007DAD92 /* NumberInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A7BE37269769E5007DAD92 /* NumberInput.swift */; };
+		C9A7BE3D269769E5007DAD92 /* DestinationPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A7BE38269769E5007DAD92 /* DestinationPageView.swift */; };
+		C9A7BE3F26976A18007DAD92 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A7BE3E26976A18007DAD92 /* ViewModel.swift */; };
+		C9A7BE4126977094007DAD92 /* ResistorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A7BE4026977094007DAD92 /* ResistorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C995FF202697695C009A0258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C995FF0626976959009A0258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C995FF0D26976959009A0258;
+			remoteInfo = SimplDip;
+		};
+		C995FF2B2697695C009A0258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C995FF0626976959009A0258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C995FF0D26976959009A0258;
+			remoteInfo = SimplDip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C931AA62276D312400E08D40 /* ResistorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorViewModel.swift; sourceTree = "<group>"; };
+		C931AA64276D33A900E08D40 /* ResistorSelectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorSelectors.swift; sourceTree = "<group>"; };
+		C995FF0E26976959009A0258 /* SimplDip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplDip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C995FF1126976959009A0258 /* SimplDipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplDipApp.swift; sourceTree = "<group>"; };
+		C995FF1326976959009A0258 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C995FF152697695C009A0258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C995FF182697695C009A0258 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C995FF1A2697695C009A0258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C995FF1F2697695C009A0258 /* SimplDipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplDipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C995FF232697695C009A0258 /* SimplDipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplDipTests.swift; sourceTree = "<group>"; };
+		C995FF252697695C009A0258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C995FF2A2697695C009A0258 /* SimplDipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplDipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C995FF2E2697695C009A0258 /* SimplDipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplDipUITests.swift; sourceTree = "<group>"; };
+		C995FF302697695C009A0258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A7BE34269769E5007DAD92 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C9A7BE35269769E5007DAD92 /* DipSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DipSwitch.swift; sourceTree = "<group>"; };
+		C9A7BE36269769E5007DAD92 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		C9A7BE37269769E5007DAD92 /* NumberInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberInput.swift; sourceTree = "<group>"; };
+		C9A7BE38269769E5007DAD92 /* DestinationPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationPageView.swift; sourceTree = "<group>"; };
+		C9A7BE3E26976A18007DAD92 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C9A7BE4026977094007DAD92 /* ResistorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C995FF0B26976959009A0258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C995FF1C2697695C009A0258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C995FF272697695C009A0258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C995FF0526976959009A0258 = {
+			isa = PBXGroup;
+			children = (
+				C995FF1026976959009A0258 /* SimplDip */,
+				C995FF222697695C009A0258 /* SimplDipTests */,
+				C995FF2D2697695C009A0258 /* SimplDipUITests */,
+				C995FF0F26976959009A0258 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C995FF0F26976959009A0258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C995FF0E26976959009A0258 /* SimplDip.app */,
+				C995FF1F2697695C009A0258 /* SimplDipTests.xctest */,
+				C995FF2A2697695C009A0258 /* SimplDipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C995FF1026976959009A0258 /* SimplDip */ = {
+			isa = PBXGroup;
+			children = (
+				C931AA62276D312400E08D40 /* ResistorViewModel.swift */,
+				C995FF1126976959009A0258 /* SimplDipApp.swift */,
+				C995FF1326976959009A0258 /* ContentView.swift */,
+				C9A7BE4026977094007DAD92 /* ResistorView.swift */,
+				C931AA64276D33A900E08D40 /* ResistorSelectors.swift */,
+				C9A7BE38269769E5007DAD92 /* DestinationPageView.swift */,
+				C9A7BE35269769E5007DAD92 /* DipSwitch.swift */,
+				C9A7BE34269769E5007DAD92 /* Model.swift */,
+				C9A7BE36269769E5007DAD92 /* MyButton.swift */,
+				C9A7BE37269769E5007DAD92 /* NumberInput.swift */,
+				C9A7BE3E26976A18007DAD92 /* ViewModel.swift */,
+				C995FF152697695C009A0258 /* Assets.xcassets */,
+				C995FF1A2697695C009A0258 /* Info.plist */,
+				C995FF172697695C009A0258 /* Preview Content */,
+			);
+			path = SimplDip;
+			sourceTree = "<group>";
+		};
+		C995FF172697695C009A0258 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C995FF182697695C009A0258 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C995FF222697695C009A0258 /* SimplDipTests */ = {
+			isa = PBXGroup;
+			children = (
+				C995FF232697695C009A0258 /* SimplDipTests.swift */,
+				C995FF252697695C009A0258 /* Info.plist */,
+			);
+			path = SimplDipTests;
+			sourceTree = "<group>";
+		};
+		C995FF2D2697695C009A0258 /* SimplDipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C995FF2E2697695C009A0258 /* SimplDipUITests.swift */,
+				C995FF302697695C009A0258 /* Info.plist */,
+			);
+			path = SimplDipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C995FF0D26976959009A0258 /* SimplDip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C995FF332697695C009A0258 /* Build configuration list for PBXNativeTarget "SimplDip" */;
+			buildPhases = (
+				C995FF0A26976959009A0258 /* Sources */,
+				C995FF0B26976959009A0258 /* Frameworks */,
+				C995FF0C26976959009A0258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplDip;
+			productName = SimplDip;
+			productReference = C995FF0E26976959009A0258 /* SimplDip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C995FF1E2697695C009A0258 /* SimplDipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C995FF362697695C009A0258 /* Build configuration list for PBXNativeTarget "SimplDipTests" */;
+			buildPhases = (
+				C995FF1B2697695C009A0258 /* Sources */,
+				C995FF1C2697695C009A0258 /* Frameworks */,
+				C995FF1D2697695C009A0258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C995FF212697695C009A0258 /* PBXTargetDependency */,
+			);
+			name = SimplDipTests;
+			productName = SimplDipTests;
+			productReference = C995FF1F2697695C009A0258 /* SimplDipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C995FF292697695C009A0258 /* SimplDipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C995FF392697695C009A0258 /* Build configuration list for PBXNativeTarget "SimplDipUITests" */;
+			buildPhases = (
+				C995FF262697695C009A0258 /* Sources */,
+				C995FF272697695C009A0258 /* Frameworks */,
+				C995FF282697695C009A0258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C995FF2C2697695C009A0258 /* PBXTargetDependency */,
+			);
+			name = SimplDipUITests;
+			productName = SimplDipUITests;
+			productReference = C995FF2A2697695C009A0258 /* SimplDipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C995FF0626976959009A0258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C995FF0D26976959009A0258 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C995FF1E2697695C009A0258 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C995FF0D26976959009A0258;
+					};
+					C995FF292697695C009A0258 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C995FF0D26976959009A0258;
+					};
+				};
+			};
+			buildConfigurationList = C995FF0926976959009A0258 /* Build configuration list for PBXProject "SimplDip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C995FF0526976959009A0258;
+			productRefGroup = C995FF0F26976959009A0258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C995FF0D26976959009A0258 /* SimplDip */,
+				C995FF1E2697695C009A0258 /* SimplDipTests */,
+				C995FF292697695C009A0258 /* SimplDipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C995FF0C26976959009A0258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C995FF192697695C009A0258 /* Preview Assets.xcassets in Resources */,
+				C995FF162697695C009A0258 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C995FF1D2697695C009A0258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C995FF282697695C009A0258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C995FF0A26976959009A0258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A7BE39269769E5007DAD92 /* Model.swift in Sources */,
+				C9A7BE3C269769E5007DAD92 /* NumberInput.swift in Sources */,
+				C9A7BE4126977094007DAD92 /* ResistorView.swift in Sources */,
+				C931AA65276D33A900E08D40 /* ResistorSelectors.swift in Sources */,
+				C9A7BE3A269769E5007DAD92 /* DipSwitch.swift in Sources */,
+				C9A7BE3D269769E5007DAD92 /* DestinationPageView.swift in Sources */,
+				C931AA63276D312400E08D40 /* ResistorViewModel.swift in Sources */,
+				C9A7BE3B269769E5007DAD92 /* MyButton.swift in Sources */,
+				C995FF1426976959009A0258 /* ContentView.swift in Sources */,
+				C9A7BE3F26976A18007DAD92 /* ViewModel.swift in Sources */,
+				C995FF1226976959009A0258 /* SimplDipApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C995FF1B2697695C009A0258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C995FF242697695C009A0258 /* SimplDipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C995FF262697695C009A0258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C995FF2F2697695C009A0258 /* SimplDipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C995FF212697695C009A0258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C995FF0D26976959009A0258 /* SimplDip */;
+			targetProxy = C995FF202697695C009A0258 /* PBXContainerItemProxy */;
+		};
+		C995FF2C2697695C009A0258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C995FF0D26976959009A0258 /* SimplDip */;
+			targetProxy = C995FF2B2697695C009A0258 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C995FF312697695C009A0258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C995FF322697695C009A0258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C995FF342697695C009A0258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimplDip/Preview Content\"";
+				DEVELOPMENT_TEAM = R9X9YEBTDA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SimplDip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrstoffel.SimpleDip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C995FF352697695C009A0258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimplDip/Preview Content\"";
+				DEVELOPMENT_TEAM = R9X9YEBTDA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SimplDip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrstoffel.SimpleDip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C995FF372697695C009A0258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R9X9YEBTDA;
+				INFOPLIST_FILE = SimplDipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrstoffel.SimplDipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplDip.app/SimplDip";
+			};
+			name = Debug;
+		};
+		C995FF382697695C009A0258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R9X9YEBTDA;
+				INFOPLIST_FILE = SimplDipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrstoffel.SimplDipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplDip.app/SimplDip";
+			};
+			name = Release;
+		};
+		C995FF3A2697695C009A0258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R9X9YEBTDA;
+				INFOPLIST_FILE = SimplDipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrstoffel.SimplDipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimplDip;
+			};
+			name = Debug;
+		};
+		C995FF3B2697695C009A0258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R9X9YEBTDA;
+				INFOPLIST_FILE = SimplDipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrstoffel.SimplDipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimplDip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C995FF0926976959009A0258 /* Build configuration list for PBXProject "SimplDip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C995FF312697695C009A0258 /* Debug */,
+				C995FF322697695C009A0258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C995FF332697695C009A0258 /* Build configuration list for PBXNativeTarget "SimplDip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C995FF342697695C009A0258 /* Debug */,
+				C995FF352697695C009A0258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C995FF362697695C009A0258 /* Build configuration list for PBXNativeTarget "SimplDipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C995FF372697695C009A0258 /* Debug */,
+				C995FF382697695C009A0258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C995FF392697695C009A0258 /* Build configuration list for PBXNativeTarget "SimplDipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C995FF3A2697695C009A0258 /* Debug */,
+				C995FF3B2697695C009A0258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C995FF0626976959009A0258 /* Project object */;
+}
